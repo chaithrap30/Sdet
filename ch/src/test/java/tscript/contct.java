@@ -6,7 +6,7 @@ public class contct {
 	@Test
 	public void m1()
 	{
-		System.out.println("user1 ");
+		System.out.println("user2");
 	}
 
 }
