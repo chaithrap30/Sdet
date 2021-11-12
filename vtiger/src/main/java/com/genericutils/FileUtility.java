@@ -1,12 +1,13 @@
 package com.genericutils;
 
 
+
 import java.io.FileInputStream;
 import java.io.FileReader;
 import java.util.Properties;
 
-import org.json.simple.JSONObject;
-import org.json.simple.parser.JSONParser;
+//import org.json.simple.JSONObject;
+//import org.json.simple.parser.JSONParser;
 
 public class FileUtility {
 
@@ -17,8 +18,9 @@ public class FileUtility {
 		p.load(file);
 		return p.getProperty(Key);
 	}
+	
 		
-		public String getDataFromJson(String jsonkey) throws Throwable
+		/*public String getDataFromJson(String jsonkey) throws Throwable
 		{
 		FileReader reader=new FileReader(IPathConstant1.jsonFILEPATH);
 		JSONParser parser=  new JSONParser();
@@ -26,6 +28,5 @@ public class FileUtility {
 		JSONObject jsobobj=(JSONObject)object;
 		String value=jsobobj.get(jsonkey).toString();
 		return value;		
-	}
+	*/}
 
-}
